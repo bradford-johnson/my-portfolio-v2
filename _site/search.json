@@ -7,6 +7,20 @@
     "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nOct 12, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nOct 9, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bradford Johnson",
+    "section": "",
+    "text": "I am passionate about working with data and solving problems with data.\nMy background is in sociology, and I shifted into data analytics in late 2021.\nSelf-taught R data analyst.\nI am currently enrolled in Thinkful’s Data Analytics Bootcamp, and I will complete it in December 2022.\nI enjoy meeting new people, if you want to get to know more about myself or my work, reach out!"
+  },
+  {
+    "objectID": "index.html#toolbox",
+    "href": "index.html#toolbox",
+    "title": "Bradford Johnson",
+    "section": "Toolbox:",
+    "text": "Toolbox:\n\nR\nSQL\nTableau\nExcel\nQuarto\nGitHub"
+  },
+  {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code",
@@ -25,20 +39,6 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Placeholder"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Bradford Johnson",
-    "section": "",
-    "text": "I am passionate about working with data and solving problems with data.\nMy background is in sociology, and I shifted into data analytics in late 2021.\nSelf-taught R data analyst.\nI am currently enrolled in Thinkful’s Data Analytics Bootcamp, and I will complete it in December 2022.\nI enjoy meeting new people, if you want to get to know more about myself or my work, reach out!"
-  },
-  {
-    "objectID": "index.html#toolbox",
-    "href": "index.html#toolbox",
-    "title": "Bradford Johnson",
-    "section": "Toolbox:",
-    "text": "Toolbox:\n\nR\nSQL\nTableau\nExcel\nQuarto\nGitHub"
+    "text": "Note\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, warning, important, tip, and caution.\n\n\n\n\n\n\n\n\nTip With Caption\n\n\n\nThis is an example of a callout with a caption.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘folded’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default.\n\n\n\n\n\n\n\n\n\nPay Attention\n\n\n\nUsing callouts is an effective way to highlight content that your reader give special consideration or attention."
   }
 ]
