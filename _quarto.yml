@@ -1,0 +1,21 @@
+project:
+  type: website
+output-dir: docs
+
+website:
+  title: "Bradford Johnson"
+  navbar:
+    left: 
+      - index.qmd
+      - projects.qmd
+      - blog.qmd
+    right:
+      - icon: github
+        href: https://github.com/
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+editor: visual
+
