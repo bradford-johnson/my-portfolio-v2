@@ -1,12 +1,12 @@
 ---
 title: "My Project"
 format: gfm
-jupyter: python3
 ---
 
-This is a GitHub README that has content dynamically generated from Python:
+This is a GitHub README that has content dynamically generated from R:
 
-```{python}
-answer = 1 + 1 
-print("Hello, world", answer)
+```{r}
+if (1==1) {
+print("Welcome!") # This statement will execute if the condition is satisfied.
+}
 ```
