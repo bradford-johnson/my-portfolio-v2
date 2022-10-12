@@ -14,7 +14,9 @@ website:
         href: https://github.com/
 format:
   html:
-    theme: cosmo
+    theme: 
+      light: [litera, styles.scss]
+      dark: [darkly, styles-dark.scss]
     css: styles.css
 
 editor: visual
