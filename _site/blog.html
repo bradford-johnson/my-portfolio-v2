@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Bradford Johnson - my-portfolio-v2</title>
+<title>Bradford Johnson - Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,9 +67,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -105,20 +105,18 @@ ul.task-list{list-style: none;}
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html">About</a>
+    <a class="nav-link" href="./index.html">About me</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./projects.html">Projects</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page">my-portfolio-v2</a>
+    <a class="nav-link active" href="./blog.html" aria-current="page">Blog</a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"><i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/bradfordjohnson/my-portfolio-v2"><i class="bi bi-github" role="img">
 </i> 
  </a>
   </li>  
@@ -135,7 +133,7 @@ ul.task-list{list-style: none;}
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page-left">
-      <h1 class="title">my-portfolio-v2</h1>
+      <h1 class="title">Blog</h1>
                       </div>
   </div>
     
@@ -163,21 +161,18 @@ ul.task-list{list-style: none;}
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1665547200000" data-listing-file-modified-sort="1665610296634" data-listing-reading-time-sort="0.045">
-<div class="thumbnail">
-<p><a href="./posts/post-with-code/index.html"> <img src="./posts/post-with-code/image.jpg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/post-with-code/index.html">
-<h3 class="no-anchor listing-title">
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="news,code,analysis" data-listing-date-sort="1665547200000" data-listing-file-modified-sort="1665610296634" data-listing-reading-time-sort="0.045">
+<a href="./posts/post-with-code/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/post-with-code/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Post With Code
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
@@ -189,57 +184,50 @@ code
 analysis
 </div>
 </div>
-<a href="./posts/post-with-code/index.html">
-<div class="listing-description">
+<div class="card-text listing-description">
 This is a post with executable code.
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/post-with-code/index.html">
-<div class="listing-date">
-Oct 12, 2022
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Harlow Malloc
 </div>
+<div class="listing-date">
+Oct 12, 2022
+</div>
+</div>
+</div>
+</div>
 </a>
 </div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="news" data-listing-date-sort="1665288000000" data-listing-file-modified-sort="1665610296631" data-listing-reading-time-sort="0.16">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html"> <img src="./posts/welcome/thumbnail.jpg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/welcome/index.html">
-<h3 class="no-anchor listing-title">
+<div class="g-col-1" data-index="1" data-categories="news" data-listing-date-sort="1665288000000" data-listing-file-modified-sort="1665610296631" data-listing-reading-time-sort="0.16">
+<a href="./posts/welcome/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./posts/welcome/thumbnail.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
 Welcome To My Blog
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
+</h5>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('news'); return false;">
 news
 </div>
 </div>
-<a href="./posts/welcome/index.html">
-<div class="listing-description">
+<div class="card-text listing-description">
 This is the first post in a Quarto blog. Welcome!
 </div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html">
-<div class="listing-date">
-Oct 9, 2022
-</div>
+<div class="card-attribution card-text-small justify">
 <div class="listing-author">
 Tristan O’Malley
 </div>
-</a>
+<div class="listing-date">
+Oct 9, 2022
 </div>
+</div>
+</div>
+</div>
+</a>
 </div>
 </div>
 <div class="listing-no-matching d-none">

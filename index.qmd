@@ -1,15 +1,51 @@
 ---
-title: "About"
-image: "img.png"
+title: "Bradford Johnson"
+image: "images/jamie-street-UtrE5DcgEyg-unsplash.jpg"
 about:
-  template: jolla
+  template: trestles
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: "www.linkedin.com/in/bradford-ford-johnson/"
     - icon: github
       text: Github
-      href: https://github.com
+      href: "https://github.com/bradfordjohnson/"
+    - icon: stars
+      text: Tableau
+      href: "https://public.tableau.com/app/profile/bradfordjohnson"
+    - icon: envelope
+      text: Email
+      href: "mailto:bradfordljohnson@outlook.com"
+    - icon: filetype-pdf
+      text: Resume
+      href: "https://1drv.ms/b/s!Ahpkb3AfX4xfg992ZlYBuvcWItFqdA?e=nDhWYC"
+    - icon: "link-45deg"
+      text: Kaggle
+      href: "https://www.kaggle.com/bradfordjohnson"
 ---
 
-About this blog
+## About me:
+
+-   I am passionate about working with data and solving problems with data.
+
+-   My background is in sociology, and I shifted into data analytics in late 2021.
+
+-   Self-taught R data analyst.
+
+-   I am currently enrolled in Thinkful's Data Analytics Bootcamp, and I will complete it in December 2022.
+
+-   I enjoy meeting new people, if you want to get to know more about myself or my work, reach out!
+
+## Toolbox:
+
+-   R
+
+-   SQL
+
+-   Tableau
+
+-   Excel
+
+-   Quarto
+
+-   GitHub
