@@ -1,7 +1,4 @@
----
-title: "My Project"
-format: gfm
-output-file: "README.md"
----
+My Project
+================
 
 This is a GitHub README that has content dynamically generated from R
