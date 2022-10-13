@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "news\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nOct 12, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\nTristan O’Malley\n\n\nOct 9, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bradford Johnson",
+    "section": "",
+    "text": "I am passionate about working with data and solving problems with data.\nMy background is in sociology, and I shifted into data analytics in late 2021.\nSelf-taught R data analyst.\nI am currently enrolled in Thinkful’s Data Analytics Bootcamp, and I will complete it in December 2022.\nI enjoy meeting new people, if you want to get to know more about myself or my work, reach out!"
+  },
+  {
+    "objectID": "index.html#toolbox",
+    "href": "index.html#toolbox",
+    "title": "Bradford Johnson",
+    "section": "Toolbox:",
+    "text": "Toolbox:\n\nR\nSQL\nTableau\nExcel\nQuarto\nGitHub"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Revenue Growth Model\n\n\n\n\n\n\n\nExamined and cleaned historical sales data using Excel (VLookUp, pivot tables and t-tests).\nFacilitated exploratory data analysis and assessed by KPI performance.\nDeveloped and presented models that showcased a 40% increase in profits.\n\n\nClick the icons below to see the project files and deliverables\n\n\n\nExcel\nPowerPoint\nReadMe\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject Title\n\n\n\n\n\nProject Description"
+  }
+]
