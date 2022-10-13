@@ -2,40 +2,39 @@
 title: "Projects"
 ---
 
-Placeholder
+::: {.callout-note collapse="false"}
+## Twitter Analysis Project
 
-::: {.callout-caution collapse="false"}
-## Project Title
+> -   Collected Twitter data received from Twitter API, and stored this data within my own database using R, pgAdmin4, and postgreSQL.
+>
+> -   Generated and executed SQL queries to filter and join data.
+>
+> -   Cleaned and analyzed data, conducted a sentiment analysis and a word correlation analysis.
 
-Project Description
+*Click the icons below to see the project files and deliverables*
 
-Project Link 1:
-
-Project Link 2:
-
-Small Image if applicable
+|                                                  Analysis                                                   |                                                       ReadMe                                                       |
+|:---------------------------------:|:-----------------------------------:|
+| [![](images/journal-richtext.svg){width="54"}](https://bradfordjohnson.github.io/twitter-analysis-project/) | [![](images/github.svg){width="54"}](https://github.com/bradfordjohnson/twitter-analysis-project/blob/t/README.md) |
 :::
 
-::: {.callout-caution collapse="false"}
-## Project Title
+::: {.callout-note collapse="false"}
+## Revenue Growth Model
 
-Project Description
+> -   Examined and cleaned historical sales data using Excel (VLookUp, pivot tables and t-tests).
+>
+> -   Facilitated exploratory data analysis and assessed by KPI performance.
+>
+> -   Developed and presented models that showcased a 40% increase in profits.
 
-Project Link 1:
+*Click the icons below to see the project files and deliverables*
 
-Project Link 2:
-
-Small Image if applicable
+|                                                   Excel                                                    |                                                 PowerPoint                                                 |                                                      ReadMe                                                      |
+|:----------------------:|:----------------------:|:-----------------------:|
+| [![](images/filetype-xlsx.svg){width="54px"}](https://1drv.ms/x/s!Ahpkb3AfX4xfgsA0TbaqsDQorD8vKA?e=vEQXVr) | [![](images/filetype-pptx.svg){width="54px"}](https://1drv.ms/p/s!Ahpkb3AfX4xfgsAztt7OBQG6rwSqYg?e=HYOXor) | [![](images/github.svg){width="45"}](https://github.com/bradfordjohnson/thinkful/blob/main/capstone-1/README.md) |
 :::
 
-::: {.callout-caution collapse="false"}
+::: {.callout-note collapse="false"}
 ## Project Title
-
 Project Description
-
-Project Link 1:
-
-Project Link 2:
-
-Small Image if applicable
 :::
