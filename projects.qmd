@@ -4,28 +4,38 @@ title: "Projects"
 
 Placeholder
 
-::: callout-note
-Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
+::: {.callout-caution collapse="false"}
+## Project Title
+
+Project Description
+
+Project Link 1:
+
+Project Link 2:
+
+Small Image if applicable
 :::
 
-::: callout-note
-Note that there are five types of callouts, including: `note`, `warning`, `important`, `tip`, and `caution`.
+::: {.callout-caution collapse="false"}
+## Project Title
+
+Project Description
+
+Project Link 1:
+
+Project Link 2:
+
+Small Image if applicable
 :::
 
-::: callout-tip
-## Tip With Caption
+::: {.callout-caution collapse="false"}
+## Project Title
 
-This is an example of a callout with a caption.
-:::
+Project Description
 
-::: {.callout-caution collapse="true"}
-## Expand To Learn About Collapse
+Project Link 1:
 
-This is an example of a 'folded' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
-:::
+Project Link 2:
 
-::: {.callout-note appearance="simple"}
-## Pay Attention
-
-Using callouts is an effective way to highlight content that your reader give special consideration or attention.
+Small Image if applicable
 :::

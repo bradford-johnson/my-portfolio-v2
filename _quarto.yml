@@ -12,6 +12,13 @@ website:
       - blog.qmd
       - icon: github
         href: https://github.com/bradfordjohnson/my-portfolio-v2
+        
+        
+  page-footer:
+    right: "This website is built with ❤️ and [Quarto](https://quarto.org/)."
+    left: |
+      :)
+
 format:
   html:
     theme: 
