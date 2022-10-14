@@ -1,8 +1,8 @@
 ---
 title: "Welcome To My Blog"
-author: "Tristan O'Malley"
-date: "2022-10-09"
-categories: [news]
+author: "Bradford Johnson"
+date: "2022-10-14"
+categories: [info]
 ---
 
 This is the first post in a Quarto blog. Welcome!
