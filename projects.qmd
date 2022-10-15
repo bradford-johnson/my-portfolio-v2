@@ -1,7 +1,6 @@
 ---
 title: "Projects"
 ---
-
 ::: {.callout-note collapse="true"}
 ## Twitter Analysis Project
 
@@ -36,5 +35,8 @@ title: "Projects"
 
 ::: {.callout-note collapse="true"}
 ## Project Title
+
 Project Description
 :::
+
+<center>![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=bradfordjohnson&hide_border=true)</center>

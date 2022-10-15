@@ -35,17 +35,3 @@ about:
 -   I am currently enrolled in Thinkful's Data Analytics Bootcamp, and I will complete it in December 2022.
 
 -   I enjoy meeting new people, if you want to get to know more about myself or my work, reach out!
-
-## Toolbox:
-
--   R
-
--   SQL
-
--   Tableau
-
--   Excel
-
--   Quarto
-
--   GitHub

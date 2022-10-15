@@ -16,8 +16,8 @@ website:
         
   page-footer:
     right: "This website is built with ❤️ and [Quarto](https://quarto.org/)."
-    left: |
-      :)
+    left: | 
+      d
 
 format:
   html:
