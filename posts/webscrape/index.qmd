@@ -1,0 +1,119 @@
+---
+title: "Web Scraping with `rvest`"
+author: "Bradford Johnson"
+date: "2022-09-18"
+image: "josh-berendes-2zcemW2Oy8Y-unsplash.jpg"
+categories: [web scraping, rvest]
+---
+
+## **How to Web Scrape with `rvest`**
+
+Using the `rvest` package you can get the data you need from webpages and quickly use it for analysis.
+
+Below I will show a simple script using the `rvest`, `lubridate` and `tidyverse` packages that can scrape us some data from Wikipedia about the Seinfeld original television soundtrack.
+
+First of course install and load the packages, if you already have any of these packages then you just need to load them.
+
+## Install and Load Packages
+
+``` r
+# install packages
+    install.packages("tidyverse")
+    install.packages("rvest")
+    install.packages("lubridate")
+
+# load packages
+    library(tidyverse)
+    library(rvest)
+    library(lubridate)
+```
+
+```{r include=FALSE}
+# load packages
+    library(tidyverse)
+    library(rvest)
+    library(lubridate)
+```
+
+If you want to see the documentation for any of these packages then click their hex image.
+
+[![rvest](https://github.com/rstudio/hex-stickers/blob/master/thumbs/rvest.png?raw=true)](https://rvest.tidyverse.org/) [![tidyverse](https://github.com/rstudio/hex-stickers/blob/master/thumbs/tidyverse.png?raw=true)](https://tidyverse.tidyverse.org/) [![lub](https://github.com/rstudio/hex-stickers/blob/master/thumbs/lubridate.png?raw=true)](https://lubridate.tidyverse.org/)
+
+## Setting the Parameters
+
+Next you will set up the parameters so `rvest` knows where to get the data from. The `html_nodes` can be found using the browser extension `SelectorGadget` found [here](https://chrome.google.com/webstore/detail/selectorgadget/mhjhnkcfbdhnjickkkdbjoemdmbfginb). Using this extension you can highlight what you want to web scrape and copy/paste the html nodes from `SelectorGadget`.
+
+``` r
+# link to get data from
+    link <- "https://en.wikipedia.org/wiki/Seinfeld"
+
+# read webpage at the above link
+    page <- read_html(link)
+
+# scrape title
+    title <- page %>%
+        html_nodes(".tracklist td:nth-child(2)") %>%
+        html_text()
+
+# scrape episodes
+    episodes <- page %>%
+        html_nodes(".tracklist td:nth-child(3)") %>%
+        html_text()
+
+# scrape length
+    length <- page %>%
+        html_nodes(".tracklist-length") %>%
+        html_text()
+```
+
+```{r include=FALSE}
+# link to get data from
+    link <- "https://en.wikipedia.org/wiki/Seinfeld"
+
+# read webpage at the above link
+    page <- read_html(link)
+
+# scrape title
+    title <- page %>%
+        html_nodes(".tracklist td:nth-child(2)") %>%
+        html_text()
+
+# scrape episodes
+    episodes <- page %>%
+        html_nodes(".tracklist td:nth-child(3)") %>%
+        html_text()
+
+# scrape length
+    length <- page %>%
+        html_nodes(".tracklist-length") %>%
+        html_text()
+```
+
+## Creating the Data Frame
+
+After getting all the data you will want to put it into a data frame to work with it, so you will then use the `data.frame()` function and add in the data you pulled from online. Below you will see how I am creating the data frame and adding in the current date as a column so I know when I collected this data.
+
+``` r
+# create df
+    df <- data.frame(title, episodes, length)
+
+# remove quotes from data
+    df$title <- gsub("\"", "", df$title)
+    df$episodes <- gsub("\"", "", df$episodes)
+```
+
+```{r include=FALSE}
+# create df
+    df <- data.frame(title, episodes, length)
+
+# remove quotes from data
+    df$title <- gsub("\"", "", df$title)
+    df$episodes <- gsub("\"", "", df$episodes)
+```
+
+Now lets see the first 6 rows of our new data frame that we crafted using `rvest`.
+
+```{r warning=FALSE,message=FALSE,error=FALSE}
+# view top 6 records
+    head(df)
+```
