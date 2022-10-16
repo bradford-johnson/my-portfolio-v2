@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "web scraping\n\n\nrvest\n\n\n\n\n\n\n\nBradford Johnson\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ninfo\n\n\n\n\n\n\n\nBradford Johnson\n\n\nOct 14, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nOct 12, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "web scraping\n\n\nrvest\n\n\n\n\n\n\n\nBradford Johnson\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ninfo\n\n\n\n\n\n\n\nBradford Johnson\n\n\nOct 14, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -12,13 +12,6 @@
     "title": "Bradford Johnson",
     "section": "",
     "text": "I am passionate about working with data and solving problems with data.\nMy background is in sociology, and I shifted into data analytics in late 2021.\nSelf-taught R data analyst.\nI am currently enrolled in Thinkful’s Data Analytics Bootcamp, and I will complete it in December 2022.\nI enjoy meeting new people, if you want to get to know more about myself or my work, reach out!"
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "1 + 1\n\n[1] 2"
   },
   {
     "objectID": "posts/webscrape/index.html",
@@ -53,7 +46,21 @@
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "This is my first post in my Quarto blog."
+  },
+  {
+    "objectID": "posts/welcome/index.html#what-to-expect",
+    "href": "posts/welcome/index.html#what-to-expect",
+    "title": "Welcome To My Blog",
+    "section": "What to expect?",
+    "text": "What to expect?\nThis blog is a way for me to show things I have learned to others, and hopefully help others learn from me. I will post a variety of content, and it is not in any specific order of significance, rather just as I come across or want to share something. A post may be about a package, a function, solving a problem, a specific visual, or anything else related to working with data."
+  },
+  {
+    "objectID": "posts/welcome/index.html#how-much-does-it-cost",
+    "href": "posts/welcome/index.html#how-much-does-it-cost",
+    "title": "Welcome To My Blog",
+    "section": "How much does it cost?",
+    "text": "How much does it cost?\nNothing of course, however if you have feedback for me, or would like to make suggestions then let me know!"
   },
   {
     "objectID": "projects.html",

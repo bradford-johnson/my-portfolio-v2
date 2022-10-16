@@ -2,11 +2,18 @@
 title: "Welcome To My Blog"
 author: "Bradford Johnson"
 date: "2022-10-14"
+image: "thumbnail.jpg"
 categories: [info]
 ---
 
-This is the first post in a Quarto blog. Welcome!
+## Welcome!
 
-![](thumbnail.jpg)
+This is my first post in my Quarto blog.
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+## What to expect?
+
+This blog is a way for me to show things I have learned to others, and hopefully help others learn from me. I will post a variety of content, and it is not in any specific order of significance, rather just as I come across or want to share something. A post may be about a package, a function, solving a problem, a specific visual, or anything else related to working with data.
+
+## How much does it cost?
+
+Nothing of course, however if you have feedback for me, or would like to make suggestions then let me know!
