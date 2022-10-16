@@ -1,8 +1,9 @@
 ---
 title: "Projects"
 ---
+
 ::: {.callout-note collapse="true"}
-## Twitter Analysis Project
+## *Twitter Analysis Project*
 
 > -   Collected Twitter data received from Twitter API, and stored this data within my own database using R, pgAdmin4, and postgreSQL.
 >
@@ -18,7 +19,7 @@ title: "Projects"
 :::
 
 ::: {.callout-note collapse="true"}
-## Revenue Growth Model
+## *Revenue Growth Model*
 
 > -   Examined and cleaned historical sales data using Excel (VLookUp, pivot tables and t-tests).
 >
@@ -39,4 +40,6 @@ title: "Projects"
 Project Description
 :::
 
-<center>![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=bradfordjohnson&hide_border=true)</center>
+## GitHub Streak {#sec-github-streak}
+
+<center>![](https://github-readme-streak-stats.herokuapp.com?user=bradfordjohnson&hide_border=true)</center>

@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "info\n\n\n\n\n\n\n\nBradford Johnson\n\n\nOct 14, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nOct 12, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nweb scraping\n\n\nrvest\n\n\n\n\n\n\n\nBradford Johnson\n\n\nSep 18, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "web scraping\n\n\nrvest\n\n\n\n\n\n\n\nBradford Johnson\n\n\nOct 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ninfo\n\n\n\n\n\n\n\nBradford Johnson\n\n\nOct 14, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nHarlow Malloc\n\n\nOct 12, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -25,28 +25,28 @@
     "href": "posts/webscrape/index.html",
     "title": "Web Scraping with rvest",
     "section": "",
-    "text": "Using the rvest package you can get the data you need from webpages and quickly use it for analysis.\nBelow I will show a simple script using the rvest, lubridate and tidyverse packages that can scrape us some data from Wikipedia about the Seinfeld original television soundtrack.\nFirst of course install and load the packages, if you already have any of these packages then you just need to load them."
+    "text": "Using the rvest package you can get the data you need from webpages and quickly use it for analysis.\nBelow I will show a simple script using the rvest and tidyverse packages that can scrape us some data from Wikipedia about the Seinfeld original television soundtrack.\nFirst you will need to install and load these packages, if you already have any of these packages then you just need to load them."
   },
   {
     "objectID": "posts/webscrape/index.html#install-and-load-packages",
     "href": "posts/webscrape/index.html#install-and-load-packages",
     "title": "Web Scraping with rvest",
     "section": "Install and Load Packages",
-    "text": "Install and Load Packages\n# install packages\n    install.packages(\"tidyverse\")\n    install.packages(\"rvest\")\n    install.packages(\"lubridate\")\n\n# load packages\n    library(tidyverse)\n    library(rvest)\n    library(lubridate)\nIf you want to see the documentation for any of these packages then click their hex image."
+    "text": "Install and Load Packages\n# install packages\n    install.packages(\"tidyverse\")\n    install.packages(\"rvest\")\n\n# load packages\n    library(tidyverse)\n    library(rvest)\n\nTo see the documentation for any of these packages, click their hex image."
   },
   {
     "objectID": "posts/webscrape/index.html#setting-the-parameters",
     "href": "posts/webscrape/index.html#setting-the-parameters",
     "title": "Web Scraping with rvest",
     "section": "Setting the Parameters",
-    "text": "Setting the Parameters\nNext you will set up the parameters so rvest knows where to get the data from. The html_nodes can be found using the browser extension SelectorGadget found here. Using this extension you can highlight what you want to web scrape and copy/paste the html nodes from SelectorGadget.\n# link to get data from\n    link <- \"https://en.wikipedia.org/wiki/Seinfeld\"\n\n# read webpage at the above link\n    page <- read_html(link)\n\n# scrape title\n    title <- page %>%\n        html_nodes(\".tracklist td:nth-child(2)\") %>%\n        html_text()\n\n# scrape episodes\n    episodes <- page %>%\n        html_nodes(\".tracklist td:nth-child(3)\") %>%\n        html_text()\n\n# scrape length\n    length <- page %>%\n        html_nodes(\".tracklist-length\") %>%\n        html_text()"
+    "text": "Setting the Parameters\nNext you will set up the parameters so rvest knows where to get the data from. First I create the object link with the website’s link. After I can use this object as an argument for the read_html() function. This function is then assigned to the object page.\n# link to get data from\n    link <- \"https://en.wikipedia.org/wiki/Seinfeld\"\n\n# read webpage at the above link\n    page <- read_html(link)\nFor each of the columns you want to create you will need to repeat the following steps:\n\n\nCreate object with the column’s name\nUse selector gadget to get the html_nodes for this column\nRepeat the below code as shown changing each object’s name to it’s respective column name, and html_nodes\n\n\nThe html_nodes can be found using the browser extension SelectorGadget found here. Using this extension you can highlight what you want to web scrape and copy/paste the html nodes from SelectorGadget.\nFor my 3 columns: title, episodes, and length this is how the code looks:\n# scrape title\n    title <- page %>%\n        html_nodes(\".tracklist td:nth-child(2)\") %>%\n        html_text()\n\n# scrape episodes\n    episodes <- page %>%\n        html_nodes(\".tracklist td:nth-child(3)\") %>%\n        html_text()\n\n# scrape length\n    length <- page %>%\n        html_nodes(\".tracklist-length\") %>%\n        html_text()"
   },
   {
     "objectID": "posts/webscrape/index.html#creating-the-data-frame",
     "href": "posts/webscrape/index.html#creating-the-data-frame",
     "title": "Web Scraping with rvest",
     "section": "Creating the Data Frame",
-    "text": "Creating the Data Frame\nAfter getting all the data you will want to put it into a data frame to work with it, so you will then use the data.frame() function and add in the data you pulled from online. Below you will see how I am creating the data frame and adding in the current date as a column so I know when I collected this data.\n# create df\n    df <- data.frame(title, episodes, length)\n\n# remove quotes from data\n    df$title <- gsub(\"\\\"\", \"\", df$title)\n    df$episodes <- gsub(\"\\\"\", \"\", df$episodes)\nNow lets see the first 6 rows of our new data frame that we crafted using rvest.\n\n# view top 6 records\n    head(df)\n\n                 title              episodes length\n1       Seinfeld Theme                         0:52\n2       Seinfeld Theme The Highlights of 100   0:40\n3       Seinfeld Theme         The Chronicle   0:33\n4 The Jerry Show Theme     The Pilot, Part 2   0:50\n5    Kramer's Pimpwalk        The Wig Master   0:53\n6    Jerry the Mailman      The Andrea Doria   0:35"
+    "text": "Creating the Data Frame\nAfter getting all the data you will want to put it into a data frame to work with it, to do this use the data.frame() function. Below you will see how I am creating the data frame with the previously made objects.\nI am also using the gsub() function to clean up the title and episodes columns, here I am removing quotes. Because the function takes quotes in it’s first two arguments gsub(\"...\", \"...\", x) a backslash, “\\” is used to tell the function to ignore the next symbol allowing it through. In this case not supplying the backslash would cause an error as the argument within the quotation marks is a quotation mark causing the function break.\n# create df\n    df <- data.frame(title, episodes, length)\n\n# remove quotes from data\n    df$title <- gsub(\"\\\"\", \"\", df$title)\n    df$episodes <- gsub(\"\\\"\", \"\", df$episodes)\nNow lets see the first 6 rows of our new data frame that we crafted using rvest.\n\n# view top 6 records\n    head(df)\n\n                 title              episodes length\n1       Seinfeld Theme                         0:52\n2       Seinfeld Theme The Highlights of 100   0:40\n3       Seinfeld Theme         The Chronicle   0:33\n4 The Jerry Show Theme     The Pilot, Part 2   0:50\n5    Kramer's Pimpwalk        The Wig Master   0:53\n6    Jerry the Mailman      The Andrea Doria   0:35"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -60,6 +60,13 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Revenue Growth Model\n\n\n\n\n\n\n\nExamined and cleaned historical sales data using Excel (VLookUp, pivot tables and t-tests).\nFacilitated exploratory data analysis and assessed by KPI performance.\nDeveloped and presented models that showcased a 40% increase in profits.\n\n\nClick the icons below to see the project files and deliverables\n\n\n\nExcel\nPowerPoint\nReadMe\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject Title\n\n\n\n\n\nProject Description\n\n\n\n\n\n\n\nGitHub Streak"
+    "text": "Twitter Analysis Project\n\n\n\n\n\n\n\nCollected Twitter data received from Twitter API, and stored this data within my own database using R, pgAdmin4, and postgreSQL.\nGenerated and executed SQL queries to filter and join data.\nCleaned and analyzed data, conducted a sentiment analysis and a word correlation analysis.\n\n\nClick the icons below to see the project files and deliverables\n\n\n\nAnalysis\nReadMe"
+  },
+  {
+    "objectID": "projects.html#sec-github-streak",
+    "href": "projects.html#sec-github-streak",
+    "title": "Projects",
+    "section": "GitHub Streak",
+    "text": "GitHub Streak"
   }
 ]
