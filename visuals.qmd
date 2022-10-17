@@ -1,0 +1,18 @@
+---
+title: "Visuals"
+table-of-contents: true
+---
+
+## Made with Tableau
+
+[![Strategic Dashboard](https://public.tableau.com/static/images/St/StrategicDashboard_16655263006290/Dashboard1/1_rss.png){alt="Strategic Dashboard" style="border: none"}](https://public.tableau.com/views/StrategicDashboard_16655263006290/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+## Made with R
+
+![](images/rfid-tag-reads.png)
+
+![](images/rfid-error.png)
+
+![](images/fig-airline-2-1.png)
+
+![](images/topic-sentiments-2.png)
