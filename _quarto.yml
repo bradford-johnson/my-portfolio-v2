@@ -9,7 +9,6 @@ website:
       - text: "About me"
         file: index.qmd
       - projects.qmd
-      - visuals.qmd
       - blog.qmd
       - icon: github
         href: https://github.com/bradfordjohnson/my-portfolio-v2
