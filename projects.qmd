@@ -12,7 +12,7 @@ title: "Projects"
 *Click the icons below to see the project files and deliverables*
 
 |                                                   Excel                                                    |                                            PowerPoint                                             |                                                      ReadMe                                                      |
-|:----------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------:|
+|:----------------------:|:--------------------:|:------------------------:|
 | [![](images/filetype-xlsx.svg){width="54px"}](https://1drv.ms/x/s!Ahpkb3AfX4xfhLM9MNCeJhDqU9yu8g?e=eNSp0D) | [![](images/filetype-pptx.svg){width="54px"}](https://1drv.ms/p/s!Ahpkb3AfX4xfhLM-JEKRElAacrIs0w) | [![](images/github.svg){width="45"}](https://github.com/bradfordjohnson/thinkful/blob/main/capstone-2/README.md) |
 :::
 
@@ -28,8 +28,8 @@ title: "Projects"
 *Click the icons below to see the project files and deliverables*
 
 |                                                  Analysis                                                   |                                                       ReadMe                                                       |
-|:-----------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------------------------:|
-| [![](images/journal-richtext.svg){width="54"}](https://bradfordjohnson.github.io/twitter-analysis-project/) | [![](images/github.svg){width="54"}](https://github.com/bradfordjohnson/twitter-analysis-project/blob/t/README.md) |
+|:---------------------------------:|:-----------------------------------:|
+| [![](images/journal-richtext.svg){width="54"}](https://bradford-johnson.github.io/twitter-analysis-project/) | [![](images/github.svg){width="54"}](https://github.com/bradfordjohnson/twitter-analysis-project/blob/t/README.md) |
 :::
 
 ::: {.callout-note collapse="false"}
@@ -44,6 +44,6 @@ title: "Projects"
 *Click the icons below to see the project files and deliverables*
 
 |                                                   Excel                                                    |                                                 PowerPoint                                                 |                                                      ReadMe                                                      |
-|:----------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------:|
+|:----------------------:|:----------------------:|:-----------------------:|
 | [![](images/filetype-xlsx.svg){width="54px"}](https://1drv.ms/x/s!Ahpkb3AfX4xfgsA0TbaqsDQorD8vKA?e=vEQXVr) | [![](images/filetype-pptx.svg){width="54px"}](https://1drv.ms/p/s!Ahpkb3AfX4xfhLM-zmvA8o3oxxEwew?e=iRXG4j) | [![](images/github.svg){width="45"}](https://github.com/bradfordjohnson/thinkful/blob/main/capstone-1/README.md) |
 :::
